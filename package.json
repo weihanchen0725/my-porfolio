@@ -1,5 +1,6 @@
 {
   "homepage": "https://weihanchen0725.github.io/my-porfolio/",
+  "proxy": "http://localhost:5000",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
