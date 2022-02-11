@@ -10,11 +10,11 @@ class Body extends Component {
                 <img src={logo} className="App-logo" alt="logo" />
                 <br></br>
                 <Container>
-                    Learning React with Material UI and Styled-Componets
+                    Learning React with Material UI and Styled-Components
                     <br></br>
                     While Building a Portfolio
                     <br></br>
-                    <Button>This is a Button form Material UI</Button>
+                    <Button>This is a Button form Material UI and it will do nothing</Button>
                 </Container>
           </div>
         );
