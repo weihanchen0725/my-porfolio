@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
-import { Container } from '@mui/material';
-import { Button } from '@mui/material';
+import Project1 from './Project1';
+import AboutMe from './AboutMe';
 
 class Body extends Component {
     render() {
         return (
             <div className='App'>
-                <img src={logo} className="App-logo" alt="logo" />
-                <br></br>
-                <Container>
-                    Learning React with Material UI and Styled-Components
                     <br></br>
-                    While Building a Portfolio
+                    <AboutMe />     
                     <br></br>
-                    <Button>This is a Button form Material UI and it will do nothing</Button>
-                </Container>
+                    <Project1 />
+                    <br></br>
           </div>
         );
     }
