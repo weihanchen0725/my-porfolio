@@ -7,9 +7,9 @@ class Footer extends Component {
     render() {
         return (
         <Box>
-            <Paper sx={{ position: 'absolute', bottom: 0, left: 0, right: 0 }} elevation={3}>
+            <Paper sx={{ width: '100%', position: 'fixed', bottom: '0', left: '0', right: '0', height: '3%'}} elevation={3}>
             <BottomNavigation>
-               <Typography variant="h8" component="div" sx={{ flexGrow: 1}}>@2022 Wei Han Chen</Typography>
+               <Typography variant="h8" component="div" sx={{ flexGrow: '1'}}>@2022 Wei Han Chen</Typography>
             </BottomNavigation>
             </Paper>
         </Box>

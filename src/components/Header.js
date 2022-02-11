@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
 import AppBar from "@mui/material/AppBar";
-import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
 class header extends Component {
+
     render() {
         return (
             <Box>
-                <AppBar position="static">
-                    <Typography variant="h3" component="div" sx={{ flexGrow: 1}}>
-                        <Button color='inherit'>
-                            DiDi's Portfolio
+                <AppBar position="static" >
+                    <div>
+                        <Button color='inherit' href=".">
+                            <h3>Wei Han Chen</h3>
                         </Button>
-                    </Typography>
+                        <Button color='inherit' href="https://github.com/weihanchen0725">
+                            Github
+                        </Button>
+                        <Button color='inherit' href="https://www.linkedin.com/in/weihanchen0725/">
+                            LinkedIn
+                        </Button>
+                    </div>
                 </AppBar>
             </Box>
         );
